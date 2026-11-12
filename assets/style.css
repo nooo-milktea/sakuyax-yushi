@@ -113,8 +113,8 @@ section{padding:clamp(52px,9vh,96px) 0}
 .filters button:hover{color:var(--ink);border-color:#c9bda9}
 .filters button.on{background:var(--ink);color:#f6f2ea;border-color:var(--ink)}
 .grid{columns:3;column-gap:16px}
-@media(max-width:960px){.grid{columns:2}}
-@media(max-width:560px){.grid{columns:1}}
+@media(max-width:960px){.grid{columns:2;column-gap:10px}}
+@media(max-width:560px){.grid{columns:2;column-gap:8px}.shot{margin-bottom:8px}}
 .shot{
   break-inside:avoid;margin-bottom:16px;position:relative;cursor:zoom-in;overflow:hidden;background:#e7e0d4;
 }
